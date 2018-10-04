@@ -1,0 +1,44 @@
+.site {
+    text-align: center;
+}
+
+.site-logo {
+    animation: site-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.site-header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.site-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.site-nav a {
+    padding: 0 10px;
+    color: black;
+}
+
+.site-nav a.active {
+    color: black;
+    font-weight: 600;
+}
+
+.site-intro {
+    font-size: large;
+}
+
+@keyframes site-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+  
